@@ -1,0 +1,14 @@
+                                      console.log("Assignment-3");
+var fullName="Vitthal Kale";
+console.log("Full Name:"+ fullName,"     Data Type:"+ typeof fullName);
+var age=27;
+console.log("Age:" +age,"                     Data Type:"+typeof age);
+var Married=false;
+console.log("Marital status:"+Married,"       Date Type:"+ typeof Married);
+var salary=null;
+console.log("My Current Salary:"+salary,"     Date Type:"+typeof salary);
+var friends=Infinity;
+console.log("NO. Of Friends:"+friends,"    Data Type:"+typeof friends);
+var expectedSalary=996453n;
+console.log(" Expected Salary:"+expectedSalary,"        Data Type:"+typeof expectedSalary);
+console.log("if Variable is not declaired","   Data Type:"+typeof vv);

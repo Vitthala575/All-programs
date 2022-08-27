@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>session storage</title>
+</head>
+<body>
+    <h3>session storage</h3>
+    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
+    <script>
+        window.sessionStorage.setItem("name", "Mohit Sharma");
+        window.sessionStorage.setItem("city", "PUNE");
+        window.sessionStorage.setItem("pin_code", "431202");
+        window.sessionStorage.setItem("country", "India");
+        window.sessionStorage.setItem("country", "US"); // To update the item
+
+        window.sessionStorage.removeItem("pin_code"); // To remove
+        const no_of_items = window.sessionStorage.length;
+        console.log("Number of items is", no_of_items);
+    </script>
+</body>
+</html>
